@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<title>Voyage - cadastro</title>
+	<meta charset="UTF-8" lang="pt-br"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="estilos.css"/>
+	<link rel="shortcut icon" href="/imagens/favicon.png"  />
+
+</head>
+
+<body>
+		
+	<div id="links">
+		<a href="login.html" class="link">Entre</a><br><br>
+		<a href="cadastro.html" class="link">Cadastre-se</a><br><br>
+	</div>
+
+	<form class="formulario" method='POST' action='cadastro.php'>
+		<h2>Cadastro</h2>
+		<label>Nome</label>
+		<input type="text" class="form-control" name="nome" required/>
+		<br>
+		<label>E-mail</label>
+		<input type="text" class="form-control" name="email" required/>
+		<br>
+		<label>Senha</label>
+		<input type="password" class="form-control" name="senha" required/>
+		<br>
+		<input type="submit" value="cadastrar-se" class="btn btn-primary"/>
+	</form>
+	
+
+	<script src="interacao.js"></script>
+
+</body>
+
+</html>
