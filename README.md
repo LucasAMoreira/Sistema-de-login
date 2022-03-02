@@ -1,3 +1,12 @@
-Sistema de cadastro e login
+# Sistema de login
 
-Usa php e postgreSQL
+Implementação de um sistema de login simples.
+
+## Ferramentas
+
+Site feito como:
+- HTML
+- PHP
+- O *framework* Bootstrap
+
+
