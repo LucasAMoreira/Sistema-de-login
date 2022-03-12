@@ -1,1 +1,5 @@
-
+/* Texto com imagem de fundo */
+.texto{
+  position: absolute;
+  color: white;
+}
