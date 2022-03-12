@@ -39,16 +39,27 @@
 		</nav>
 	</header>
 
-	<form class="formulario" method="POST" action="login.php">
-		<h2>Fazer login</h2>
-		<label>E-mail</label>
-		<input type="text" class="form-element form-control" name="email"  id="email" onclick="avisaLogin()" required/>
-		<br>
-		<label>Senha</label>
-		<input type="password" class="form-element form-control" name="senha" required/>
-		<br>
-		<input type="submit" value="Entrar" class="btn btn-primary">
-	</form>
+	<div class="container row">
+
+		<div class="col-sm-4">
+
+		</div>
+
+		<div class="col-sm-4">
+			<form class="" action="login.php" method="post">
+				<h2>Fazer login</h2>
+				<label>E-mail</label>
+				<input type="text" class="form-element form-control" name="email"  id="email" onclick="avisaLogin()" required/>
+				<br>
+				<label>Senha</label>
+				<input type="password" class="form-element form-control" name="senha" required/>
+				<br>
+				<input type="submit" value="Entrar" class="btn btn-primary">
+			</form>
+		</div>
+
+	</div>
+
 
 	<script src="interacao.js"></script>
 

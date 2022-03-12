@@ -1,7 +1,3 @@
-<!-- Desenvolvido por LGAM, 2022-->
-<!-- GitHub: LucasAMoreira -->
-<!-- Página inicial -->
-
 <!doctype html>
 
 <html>
@@ -14,9 +10,6 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Latest compiled JavaScript -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-	<link rel="stylesheet" href="estilos.css"/>
-	<link rel="shortcut icon" href="/imagens/favicon.png"  />
 
 </head>
 
@@ -40,19 +33,29 @@
 		</nav>
 	</header>
 
-	<form class="formulario" method='POST' action='cadastro.php'>
-		<h2>Cadastro</h2>
-		<label>Nome</label>
-		<input type="text" class="form-control" name="nome" required/>
-		<br>
-		<label>E-mail</label>
-		<input type="text" class="form-control" name="email" required/>
-		<br>
-		<label>Senha</label>
-		<input type="password" class="form-control" name="senha" required/>
-		<br>
-		<input type="submit" value="cadastrar-se" class="btn btn-primary"/>
-	</form>
+<div class="container row">
+	<div class="col-sm-4">
+
+	</div>
+
+	<div class="col-sm-4">
+		<form class="formulario" method='POST' action='cadastro.php'>
+			<h2>Cadastro</h2>
+			<label>Nome</label>
+			<input type="text" class="form-control" name="nome" required/>
+			<br>
+			<label>E-mail</label>
+			<input type="text" class="form-control" name="email" required/>
+			<br>
+			<label>Senha</label>
+			<input type="password" class="form-control" name="senha" required/>
+			<br>
+			<input type="submit" value="cadastrar-se" class="btn btn-primary"/>
+		</form>
+	</div>
+
+</div>
+
 
 
 	<script src="interacao.js"></script>
