@@ -3,3 +3,13 @@
   position: absolute;
   color: white;
 }
+
+.formulario{
+  padding: 5px;
+  border: 1px solid green;
+  margin-top: 20%;
+}
+
+footer{
+  color: white;
+}
